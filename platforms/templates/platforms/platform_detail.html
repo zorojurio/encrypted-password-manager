@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-8 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="text-center text-primary"> {{platform.name}} </h2>
+                    <p> {{platform.description}} </p>
+
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a  class="btn btn-warning" href="{{platform.get_absolute_update_url}}">Edit</a>
+                        <a class="btn btn-danger" href="{{platform.get_absolute_delete_url}}">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-8 mx-auto">
+            <div class="card">
+                <h2 class="text-primary text-center">Create a Platform</h2>
+                <div class="card-body">
+                    <form method="POST">
+                        {% csrf_token %}
+                        {{ form | crispy }}
+                        <div class="text-right">
+                            {% if platform %}
+                            <button type="submit" class="btn btn-sm btn-success">Update</button>
+                            {% else %}
+                            <button type="submit" class="btn btn-sm btn-success">Create</button>
+                            {% endif %}
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
