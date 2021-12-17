@@ -1,8 +1,20 @@
+from django.urls import path
 
-from django.urls import path, include
-from .views import home_view
+from .views import (
+    PasswordListView,
+    PlatformPasswordCreateView,
+    PlatformDetailView,
+    PlatformPasswordUpdateView,
+    PlatformPasswordDeleteView,
+    CheckMasterView
+)
 
-app_name='passwords'
+app_name = 'passwords'
 urlpatterns = [
-    path('', home_view, name='home'),
+    path('check/', CheckMasterView.as_view(), name='check'),
+    path('', PasswordListView.as_view(), name='list'),
+    path('create/', PlatformPasswordCreateView.as_view(), name='create'),
+    path('<int:pk>/update/', PlatformPasswordUpdateView.as_view(), name='update'),
+    path('<int:pk>/detail/', PlatformDetailView.as_view(), name='detail'),
+    path('<int:pk>/delete/', PlatformPasswordDeleteView.as_view(), name='delete'),
 ]

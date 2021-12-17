@@ -1,0 +1,1477 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "AES",
+        "importPath": "Crypto.Cipher",
+        "description": "Crypto.Cipher",
+        "isExtraImport": true,
+        "detail": "Crypto.Cipher",
+        "documentation": {}
+    },
+    {
+        "label": "AES",
+        "importPath": "Crypto.Cipher",
+        "description": "Crypto.Cipher",
+        "isExtraImport": true,
+        "detail": "Crypto.Cipher",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "encrypt_master_password",
+        "importPath": "masters.utils",
+        "description": "masters.utils",
+        "isExtraImport": true,
+        "detail": "masters.utils",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls.base",
+        "description": "django.urls.base",
+        "isExtraImport": true,
+        "detail": "django.urls.base",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls.base",
+        "description": "django.urls.base",
+        "isExtraImport": true,
+        "detail": "django.urls.base",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequiredMixin",
+        "importPath": "django.contrib.auth.mixins",
+        "description": "django.contrib.auth.mixins",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequiredMixin",
+        "importPath": "django.contrib.auth.mixins",
+        "description": "django.contrib.auth.mixins",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequiredMixin",
+        "importPath": "django.contrib.auth.mixins",
+        "description": "django.contrib.auth.mixins",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformPassword",
+        "importPath": "passwords.models",
+        "description": "passwords.models",
+        "isExtraImport": true,
+        "detail": "passwords.models",
+        "documentation": {}
+    },
+    {
+        "label": "Platform",
+        "importPath": "platforms.models",
+        "description": "platforms.models",
+        "isExtraImport": true,
+        "detail": "platforms.models",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views.generic.base",
+        "description": "django.views.generic.base",
+        "isExtraImport": true,
+        "detail": "django.views.generic.base",
+        "documentation": {}
+    },
+    {
+        "label": "select_related_descend",
+        "importPath": "django.db.models.query_utils",
+        "description": "django.db.models.query_utils",
+        "isExtraImport": true,
+        "detail": "django.db.models.query_utils",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteView",
+        "importPath": "django.views.generic.edit",
+        "description": "django.views.generic.edit",
+        "isExtraImport": true,
+        "detail": "django.views.generic.edit",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic.edit",
+        "description": "django.views.generic.edit",
+        "isExtraImport": true,
+        "detail": "django.views.generic.edit",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "importPath": "django.contrib.auth.admin",
+        "description": "django.contrib.auth.admin",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "masters.migrations.0001_initial",
+        "description": "masters.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('users', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='MasterPassword',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "masters.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "MastersConfig",
+        "kind": 6,
+        "importPath": "masters.apps",
+        "description": "masters.apps",
+        "peekOfCode": "class MastersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'masters'",
+        "detail": "masters.apps",
+        "documentation": {}
+    },
+    {
+        "label": "MastersPasswordForm",
+        "kind": 6,
+        "importPath": "masters.forms",
+        "description": "masters.forms",
+        "peekOfCode": "class MastersPasswordForm(forms.ModelForm):\n    class Meta:\n        model = MasterPassword\n        fields = ['password']",
+        "detail": "masters.forms",
+        "documentation": {}
+    },
+    {
+        "label": "MasterPassword",
+        "kind": 6,
+        "importPath": "masters.models",
+        "description": "masters.models",
+        "peekOfCode": "class MasterPassword(models.Model):\n    password = models.CharField(max_length=255)\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    def save(self, *args, **kwargs):\n        self.password = encrypt_master_password(self.password)\n        super(MasterPassword, self).save(*args, **kwargs)",
+        "detail": "masters.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "masters.models",
+        "description": "masters.models",
+        "peekOfCode": "User = settings.AUTH_USER_MODEL\nclass MasterPassword(models.Model):\n    password = models.CharField(max_length=255)\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    def save(self, *args, **kwargs):\n        self.password = encrypt_master_password(self.password)\n        super(MasterPassword, self).save(*args, **kwargs)",
+        "detail": "masters.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "masters.urls",
+        "description": "masters.urls",
+        "peekOfCode": "urlpatterns = [\n    path('create/', MasterCreateView.as_view(), name='create'),\n    path('check/', MasterCheckView.as_view(), name='check'),\n]",
+        "detail": "masters.urls",
+        "documentation": {}
+    },
+    {
+        "label": "encrypt_master_password",
+        "kind": 2,
+        "importPath": "masters.utils",
+        "description": "masters.utils",
+        "peekOfCode": "def encrypt_master_password(password):\n    # 32 byte key is needed thats why encoding\n    key32 = \"{: <32}\".format(password).encode(\"utf-8\")\n    text = \"{: <32}\".format(password).encode(\"utf-8\")\n    obj = AES.new(key32, AES.MODE_CBC, 'This is an IV456')\n    ciphertext = obj.encrypt(text)\n    return ciphertext\ndef encrypt_platform_password(password, platform_password):\n    # 32 byte key is needed thats why encoding\n    key32 = \"{: <32}\".format(password).encode(\"utf-8\")",
+        "detail": "masters.utils",
+        "documentation": {}
+    },
+    {
+        "label": "encrypt_platform_password",
+        "kind": 2,
+        "importPath": "masters.utils",
+        "description": "masters.utils",
+        "peekOfCode": "def encrypt_platform_password(password, platform_password):\n    # 32 byte key is needed thats why encoding\n    key32 = \"{: <32}\".format(password).encode(\"utf-8\")\n    platform_password = \"{: <32}\".format(platform_password).encode(\"utf-8\")\n    obj = AES.new(key32, AES.MODE_CBC, 'This is an IV456')\n    ciphertext = obj.encrypt(platform_password)\n    return ciphertext\ndef decrypt_password(password, encrypted_message):\n    key32 = \"{: <32}\".format(password).encode(\"utf-8\")\n    obj = AES.new(key32, AES.MODE_CBC, 'This is an IV456')",
+        "detail": "masters.utils",
+        "documentation": {}
+    },
+    {
+        "label": "decrypt_password",
+        "kind": 2,
+        "importPath": "masters.utils",
+        "description": "masters.utils",
+        "peekOfCode": "def decrypt_password(password, encrypted_message):\n    key32 = \"{: <32}\".format(password).encode(\"utf-8\")\n    obj = AES.new(key32, AES.MODE_CBC, 'This is an IV456')\n    decrupted = obj.decrypt(encrypted_message)\n    return decrupted.decode(\"utf-8\")",
+        "detail": "masters.utils",
+        "documentation": {}
+    },
+    {
+        "label": "MasterCreateView",
+        "kind": 6,
+        "importPath": "masters.views",
+        "description": "masters.views",
+        "peekOfCode": "class MasterCreateView(LoginRequiredMixin, View):\n    def get(self, request, *args, **kwargs):\n        form = MastersPasswordForm()\n        context = {\n            'form': form\n        }\n        return render(request=request, template_name='masters/masters_form.html', context=context)\n    def post(self, request, *args, **kwargs):\n        form = MastersPasswordForm(request.POST)\n        if form.is_valid():",
+        "detail": "masters.views",
+        "documentation": {}
+    },
+    {
+        "label": "MasterCheckView",
+        "kind": 6,
+        "importPath": "masters.views",
+        "description": "masters.views",
+        "peekOfCode": "class MasterCheckView(View):\n    def get(self, request, *args, **kwargs):\n        return render(request=request, template_name='masters/masters_form.html')",
+        "detail": "masters.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "password_manager.asgi",
+        "description": "password_manager.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "password_manager.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = '_s6l!1(doa#jmu8!slr*cq9)h%&gu1s06oa&=1bvrb!p!_w0$2'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "SECRET_KEY = '_s6l!1(doa#jmu8!slr*cq9)h%&gu1s06oa&=1bvrb!p!_w0$2'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'crispy_forms',",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'crispy_forms',\n    'users',\n    'passwords',",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CRISPY_TEMPLATE_PACK",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "CRISPY_TEMPLATE_PACK = 'bootstrap4'\nAUTH_USER_MODEL = 'users.CustomUser' # new\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'users.CustomUser' # new\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'password_manager.urls'",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "ROOT_URLCONF = 'password_manager.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'password_manager.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\"),",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\"),\n]",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\"),\n]\nSTATIC_ROOT = os.path.join(os.path.dirname(",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\"),\n]\nSTATIC_ROOT = os.path.join(os.path.dirname(\n    BASE_DIR), \"static_cdn\", \"static_root\")",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\"),\n]\nSTATIC_ROOT = os.path.join(os.path.dirname(\n    BASE_DIR), \"static_cdn\", \"static_root\")\nMEDIA_URL = '/media/'",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\"),\n]\nSTATIC_ROOT = os.path.join(os.path.dirname(\n    BASE_DIR), \"static_cdn\", \"static_root\")\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(os.path.dirname(\n    BASE_DIR), \"static_cdn\", \"media_root\")\nLOGIN_REDIRECT_URL = '/'",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\"),\n]\nSTATIC_ROOT = os.path.join(os.path.dirname(\n    BASE_DIR), \"static_cdn\", \"static_root\")\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(os.path.dirname(\n    BASE_DIR), \"static_cdn\", \"media_root\")\nLOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = '/'",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(os.path.dirname(\n    BASE_DIR), \"static_cdn\", \"static_root\")\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(os.path.dirname(\n    BASE_DIR), \"static_cdn\", \"media_root\")\nLOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = '/'\nLOGIN_URL = '/users/login/'",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(os.path.dirname(\n    BASE_DIR), \"static_cdn\", \"media_root\")\nLOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = '/'\nLOGIN_URL = '/users/login/'",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(os.path.dirname(\n    BASE_DIR), \"static_cdn\", \"media_root\")\nLOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = '/'\nLOGIN_URL = '/users/login/'",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/'\nLOGOUT_REDIRECT_URL = '/'\nLOGIN_URL = '/users/login/'",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = '/'\nLOGIN_URL = '/users/login/'",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "password_manager.settings",
+        "description": "password_manager.settings",
+        "peekOfCode": "LOGIN_URL = '/users/login/'",
+        "detail": "password_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "password_manager.urls",
+        "description": "password_manager.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('passwords.urls', namespace='passwords')),\n    path('platforms/', include('platforms.urls', namespace='platforms')),\n    path('masters/', include('masters.urls', namespace='masters')),\n    path('users/', include('users.urls', namespace='users')),\n    path('users/', include('django.contrib.auth.urls')),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.STATIC_URL,",
+        "detail": "password_manager.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "password_manager.wsgi",
+        "description": "password_manager.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "password_manager.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "passwords.migrations.0001_initial",
+        "description": "passwords.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('platforms', '0001_initial'),\n        ('users', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='PlatformPassword',\n            fields=[",
+        "detail": "passwords.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "passwords.migrations.0002_platformpassword_email_platformpassword_username",
+        "description": "passwords.migrations.0002_platformpassword_email_platformpassword_username",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('passwords', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='platformpassword',\n            name='email',\n            field=models.EmailField(default='cool', max_length=254),\n            preserve_default=False,",
+        "detail": "passwords.migrations.0002_platformpassword_email_platformpassword_username",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordsConfig",
+        "kind": 6,
+        "importPath": "passwords.apps",
+        "description": "passwords.apps",
+        "peekOfCode": "class PasswordsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'passwords'",
+        "detail": "passwords.apps",
+        "documentation": {}
+    },
+    {
+        "label": "MasterForm",
+        "kind": 6,
+        "importPath": "passwords.forms",
+        "description": "passwords.forms",
+        "peekOfCode": "class MasterForm(forms.Form):\n    master = forms.CharField(widget=forms.PasswordInput)\nclass PlatformPasswordForm(forms.ModelForm):\n    class Meta:\n        model = PlatformPassword\n        fields = ('email', 'username', 'password', 'platform')",
+        "detail": "passwords.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformPasswordForm",
+        "kind": 6,
+        "importPath": "passwords.forms",
+        "description": "passwords.forms",
+        "peekOfCode": "class PlatformPasswordForm(forms.ModelForm):\n    class Meta:\n        model = PlatformPassword\n        fields = ('email', 'username', 'password', 'platform')",
+        "detail": "passwords.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformPassword",
+        "kind": 6,
+        "importPath": "passwords.models",
+        "description": "passwords.models",
+        "peekOfCode": "class PlatformPassword(models.Model):\n    email = models.EmailField()\n    username = models.CharField(max_length=255)\n    password = models.CharField(max_length=255)\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    platform = models.ForeignKey(Platform, on_delete=models.CASCADE)\n    def __str__(self) -> str:\n        return self.user.username\n    def get_absolute_url(self):\n        return reverse('passwords:detail', kwargs={'pk': self.pk})",
+        "detail": "passwords.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "passwords.models",
+        "description": "passwords.models",
+        "peekOfCode": "User = settings.AUTH_USER_MODEL\nclass PlatformPassword(models.Model):\n    email = models.EmailField()\n    username = models.CharField(max_length=255)\n    password = models.CharField(max_length=255)\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    platform = models.ForeignKey(Platform, on_delete=models.CASCADE)\n    def __str__(self) -> str:\n        return self.user.username\n    def get_absolute_url(self):",
+        "detail": "passwords.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "passwords.urls",
+        "description": "passwords.urls",
+        "peekOfCode": "app_name = 'passwords'\nurlpatterns = [\n    path('check/', CheckMasterView.as_view(), name='check'),\n    path('', PasswordListView.as_view(), name='list'),\n    path('create/', PlatformPasswordCreateView.as_view(), name='create'),\n    path('<int:pk>/update/', PlatformPasswordUpdateView.as_view(), name='update'),\n    path('<int:pk>/detail/', PlatformDetailView.as_view(), name='detail'),\n    path('<int:pk>/delete/', PlatformPasswordDeleteView.as_view(), name='delete'),\n]",
+        "detail": "passwords.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "passwords.urls",
+        "description": "passwords.urls",
+        "peekOfCode": "urlpatterns = [\n    path('check/', CheckMasterView.as_view(), name='check'),\n    path('', PasswordListView.as_view(), name='list'),\n    path('create/', PlatformPasswordCreateView.as_view(), name='create'),\n    path('<int:pk>/update/', PlatformPasswordUpdateView.as_view(), name='update'),\n    path('<int:pk>/detail/', PlatformDetailView.as_view(), name='detail'),\n    path('<int:pk>/delete/', PlatformPasswordDeleteView.as_view(), name='delete'),\n]",
+        "detail": "passwords.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CheckMasterView",
+        "kind": 6,
+        "importPath": "passwords.views",
+        "description": "passwords.views",
+        "peekOfCode": "class CheckMasterView(View):\n    def get(self, request, *args, **kwargs):\n        form = MasterForm()\n        context = {\n            'form': form\n        }\n        return render(request=request, template_name='passwords/master.html', context=context)\n    def post(self, request, *args, **kwargs):\n        form = MasterForm(request.POST)\n        if form.is_valid():",
+        "detail": "passwords.views",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformPasswordDeleteView",
+        "kind": 6,
+        "importPath": "passwords.views",
+        "description": "passwords.views",
+        "peekOfCode": "class PlatformPasswordDeleteView(LoginRequiredMixin, DeleteView):\n    model = PlatformPassword\n    template_name = 'passwords/password_delete.html'\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PlatformDetailView(LoginRequiredMixin, DetailView):\n    model = PlatformPassword\n    template_name = 'passwords/password_detail.html'\nclass PlatformPasswordUpdateView(LoginRequiredMixin, UpdateView):\n    model = PlatformPassword",
+        "detail": "passwords.views",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformDetailView",
+        "kind": 6,
+        "importPath": "passwords.views",
+        "description": "passwords.views",
+        "peekOfCode": "class PlatformDetailView(LoginRequiredMixin, DetailView):\n    model = PlatformPassword\n    template_name = 'passwords/password_detail.html'\nclass PlatformPasswordUpdateView(LoginRequiredMixin, UpdateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PasswordListView(LoginRequiredMixin, ListView):",
+        "detail": "passwords.views",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformPasswordUpdateView",
+        "kind": 6,
+        "importPath": "passwords.views",
+        "description": "passwords.views",
+        "peekOfCode": "class PlatformPasswordUpdateView(LoginRequiredMixin, UpdateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PasswordListView(LoginRequiredMixin, ListView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_list.html'\nclass PlatformPasswordCreateView(LoginRequiredMixin, CreateView):",
+        "detail": "passwords.views",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordListView",
+        "kind": 6,
+        "importPath": "passwords.views",
+        "description": "passwords.views",
+        "peekOfCode": "class PasswordListView(LoginRequiredMixin, ListView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_list.html'\nclass PlatformPasswordCreateView(LoginRequiredMixin, CreateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def form_valid(self, form):\n        \"\"\"If the form is valid, save the associated model.\"\"\"\n        self.object = form.save(commit=False)",
+        "detail": "passwords.views",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformPasswordCreateView",
+        "kind": 6,
+        "importPath": "passwords.views",
+        "description": "passwords.views",
+        "peekOfCode": "class PlatformPasswordCreateView(LoginRequiredMixin, CreateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def form_valid(self, form):\n        \"\"\"If the form is valid, save the associated model.\"\"\"\n        self.object = form.save(commit=False)\n        self.object.user = self.request.user\n        self.object.save()\n        return super().form_valid(form)",
+        "detail": "passwords.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "platforms.migrations.0001_initial",
+        "description": "platforms.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Platform',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=255)),",
+        "detail": "platforms.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformsConfig",
+        "kind": 6,
+        "importPath": "platforms.apps",
+        "description": "platforms.apps",
+        "peekOfCode": "class PlatformsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'platforms'",
+        "detail": "platforms.apps",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformForm",
+        "kind": 6,
+        "importPath": "platforms.forms",
+        "description": "platforms.forms",
+        "peekOfCode": "class PlatformForm(forms.ModelForm):\n    class Meta:\n        model = Platform\n        fields = ['name', 'url', 'description']",
+        "detail": "platforms.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Platform",
+        "kind": 6,
+        "importPath": "platforms.models",
+        "description": "platforms.models",
+        "peekOfCode": "class Platform(models.Model):\n    name = models.CharField(max_length=255)\n    url = models.URLField()\n    description = models.TextField(blank=True, null=True)\n    def __str__(self) -> str:\n        return self.name\n    def get_absolute_url(self):\n        return reverse('platforms:detail', kwargs={'pk': self.pk})\n    def get_absolute_update_url(self):\n        return reverse('platforms:update', kwargs={'pk': self.pk})",
+        "detail": "platforms.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "platforms.models",
+        "description": "platforms.models",
+        "peekOfCode": "User = settings.AUTH_USER_MODEL\nclass Platform(models.Model):\n    name = models.CharField(max_length=255)\n    url = models.URLField()\n    description = models.TextField(blank=True, null=True)\n    def __str__(self) -> str:\n        return self.name\n    def get_absolute_url(self):\n        return reverse('platforms:detail', kwargs={'pk': self.pk})\n    def get_absolute_update_url(self):",
+        "detail": "platforms.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "platforms.urls",
+        "description": "platforms.urls",
+        "peekOfCode": "app_name = \"platforms\"\nurlpatterns = [\n    path('create/', PlatformCreateView.as_view(), name='create'),\n    path('list/', PlatformLitView.as_view(), name='list'),\n    path('list/', PlatformLitView.as_view(), name='list'),\n    path('<int:pk>/update/', PlatformUpdateView.as_view(), name='update'),\n    path('<int:pk>/detail/', PlatformDetailView.as_view(), name='detail'),\n    path('<int:pk>/delete/', PlatformConfirmDeleteView.as_view(), name='delete'),\n]",
+        "detail": "platforms.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "platforms.urls",
+        "description": "platforms.urls",
+        "peekOfCode": "urlpatterns = [\n    path('create/', PlatformCreateView.as_view(), name='create'),\n    path('list/', PlatformLitView.as_view(), name='list'),\n    path('list/', PlatformLitView.as_view(), name='list'),\n    path('<int:pk>/update/', PlatformUpdateView.as_view(), name='update'),\n    path('<int:pk>/detail/', PlatformDetailView.as_view(), name='detail'),\n    path('<int:pk>/delete/', PlatformConfirmDeleteView.as_view(), name='delete'),\n]",
+        "detail": "platforms.urls",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformCreateView",
+        "kind": 6,
+        "importPath": "platforms.views",
+        "description": "platforms.views",
+        "peekOfCode": "class PlatformCreateView(LoginRequiredMixin, CreateView):\n    form_class = PlatformForm\n    model = Platform\n    template_name ='platforms/platform_form.html'\n    def get_success_url(self) -> str:\n        return reverse(\"platforms:list\")\nclass PlatformUpdateView(LoginRequiredMixin, UpdateView):\n    form_class = PlatformForm\n    model = Platform\n    template_name ='platforms/platform_form.html'",
+        "detail": "platforms.views",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformUpdateView",
+        "kind": 6,
+        "importPath": "platforms.views",
+        "description": "platforms.views",
+        "peekOfCode": "class PlatformUpdateView(LoginRequiredMixin, UpdateView):\n    form_class = PlatformForm\n    model = Platform\n    template_name ='platforms/platform_form.html'\n    def get_success_url(self) -> str:\n        return reverse(\"platforms:list\")\nclass PlatformLitView(LoginRequiredMixin, ListView):\n    model = Platform\nclass PlatformDetailView(LoginRequiredMixin, DetailView):\n    model = Platform",
+        "detail": "platforms.views",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformLitView",
+        "kind": 6,
+        "importPath": "platforms.views",
+        "description": "platforms.views",
+        "peekOfCode": "class PlatformLitView(LoginRequiredMixin, ListView):\n    model = Platform\nclass PlatformDetailView(LoginRequiredMixin, DetailView):\n    model = Platform\nclass PlatformConfirmDeleteView(LoginRequiredMixin, DeleteView):\n    model = Platform\n    def get_success_url(self) -> str:\n        return reverse(\"platforms:list\")",
+        "detail": "platforms.views",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformDetailView",
+        "kind": 6,
+        "importPath": "platforms.views",
+        "description": "platforms.views",
+        "peekOfCode": "class PlatformDetailView(LoginRequiredMixin, DetailView):\n    model = Platform\nclass PlatformConfirmDeleteView(LoginRequiredMixin, DeleteView):\n    model = Platform\n    def get_success_url(self) -> str:\n        return reverse(\"platforms:list\")",
+        "detail": "platforms.views",
+        "documentation": {}
+    },
+    {
+        "label": "PlatformConfirmDeleteView",
+        "kind": 6,
+        "importPath": "platforms.views",
+        "description": "platforms.views",
+        "peekOfCode": "class PlatformConfirmDeleteView(LoginRequiredMixin, DeleteView):\n    model = Platform\n    def get_success_url(self) -> str:\n        return reverse(\"platforms:list\")",
+        "detail": "platforms.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "users.migrations.0001_initial",
+        "description": "users.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='CustomUser',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "users.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserAdmin",
+        "kind": 6,
+        "importPath": "users.admin",
+        "description": "users.admin",
+        "peekOfCode": "class CustomUserAdmin(UserAdmin):\n    add_form = CustomUserCreationForm\n    form = CustomUserChangeForm\n    model = CustomUser\n    list_display = ['email', 'username',]\nadmin.site.register(CustomUser, CustomUserAdmin)",
+        "detail": "users.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UsersConfig",
+        "kind": 6,
+        "importPath": "users.apps",
+        "description": "users.apps",
+        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users'",
+        "detail": "users.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserCreationForm",
+        "kind": 6,
+        "importPath": "users.forms",
+        "description": "users.forms",
+        "peekOfCode": "class CustomUserCreationForm(UserCreationForm):\n    class Meta:\n        model = CustomUser\n        fields = ('username', 'email')\nclass CustomUserChangeForm(UserChangeForm):\n    class Meta:\n        model = CustomUser\n        fields = ('username', 'email')",
+        "detail": "users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserChangeForm",
+        "kind": 6,
+        "importPath": "users.forms",
+        "description": "users.forms",
+        "peekOfCode": "class CustomUserChangeForm(UserChangeForm):\n    class Meta:\n        model = CustomUser\n        fields = ('username', 'email')",
+        "detail": "users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser",
+        "kind": 6,
+        "importPath": "users.models",
+        "description": "users.models",
+        "peekOfCode": "class CustomUser(AbstractUser):\n    pass\n    # add additional fields in here\n    def __str__(self):\n        return self.username",
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "users.urls",
+        "description": "users.urls",
+        "peekOfCode": "urlpatterns = [\n    path('signup/', SignUpView.as_view(), name='signup'),\n]",
+        "detail": "users.urls",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpView",
+        "kind": 6,
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "class SignUpView(CreateView):\n    form_class = CustomUserCreationForm\n    success_url = reverse_lazy('login')\n    template_name = 'registration/signup.html'",
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.9/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.9/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.9/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.9/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.9/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'password_manager.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"\n        ) from exc",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

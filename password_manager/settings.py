@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     
     'users',
     'passwords',
-    'platforms'
+    'platforms',
+    'masters'
 ]
 
 

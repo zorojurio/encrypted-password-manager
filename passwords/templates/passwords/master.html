@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-8 mx-auto">
+            <div class="card">
+                <h2>Master Password</h2>
+                <div class="card-body">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <label for="master">Master Password</label>
+                            <input type="text" name="master" id="master" class="form-control">
+                        </div>
+                        <div class="text-right">
+                            <input type="submit" value="Check" class="btn btn-sm btn-success">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
