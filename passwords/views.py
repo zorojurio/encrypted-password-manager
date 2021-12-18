@@ -6,9 +6,9 @@ from django.views.generic.base import View
 
 from .forms import PlatformPasswordForm
 from .models import PlatformPassword
+from .mixins import MasterPasswordRequiredMixin
 
-
-class PlatformPasswordDeleteView(LoginRequiredMixin, DeleteView):
+class PlatformPasswordDeleteView(LoginRequiredMixin, MasterPasswordRequiredMixin, DeleteView):
     model = PlatformPassword
     template_name = 'passwords/password_delete.html'
 
@@ -16,12 +16,12 @@ class PlatformPasswordDeleteView(LoginRequiredMixin, DeleteView):
         return reverse("passwords:list")
 
 
-class PlatformDetailView(LoginRequiredMixin, DetailView):
+class PlatformDetailView(LoginRequiredMixin, MasterPasswordRequiredMixin, DetailView):
     model = PlatformPassword
     template_name = 'passwords/password_detail.html'
 
 
-class PlatformPasswordUpdateView(LoginRequiredMixin, UpdateView):
+class PlatformPasswordUpdateView(LoginRequiredMixin, MasterPasswordRequiredMixin, UpdateView):
     model = PlatformPassword
     template_name = 'passwords/passwords_form.html'
     form_class = PlatformPasswordForm
@@ -35,7 +35,7 @@ class PasswordListView(LoginRequiredMixin, ListView):
     template_name = 'passwords/passwords_list.html'
 
 
-class PlatformPasswordCreateView(LoginRequiredMixin, CreateView):
+class PlatformPasswordCreateView(LoginRequiredMixin, MasterPasswordRequiredMixin, CreateView):
     model = PlatformPassword
     template_name = 'passwords/passwords_form.html'
     form_class = PlatformPasswordForm

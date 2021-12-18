@@ -361,6 +361,14 @@
         "documentation": {}
     },
     {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -417,7 +425,23 @@
         "documentation": {}
     },
     {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
@@ -554,6 +578,14 @@
     },
     {
         "label": "LoginRequiredMixin",
+        "importPath": "django.contrib.auth.mixins",
+        "description": "django.contrib.auth.mixins",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "AccessMixin",
         "importPath": "django.contrib.auth.mixins",
         "description": "django.contrib.auth.mixins",
         "isExtraImport": true,
@@ -618,6 +650,23 @@
         "documentation": {}
     },
     {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
         "label": "Platform",
         "importPath": "platforms.models",
         "description": "platforms.models",
@@ -655,23 +704,6 @@
         "description": "django.views.generic.edit",
         "isExtraImport": true,
         "detail": "django.views.generic.edit",
-        "documentation": {}
-    },
-    {
-        "label": "django.contrib.auth.models",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "AbstractUser",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
@@ -1140,6 +1172,15 @@
         "documentation": {}
     },
     {
+        "label": "MasterPasswordRequiredMixin",
+        "kind": 6,
+        "importPath": "passwords.mixins",
+        "description": "passwords.mixins",
+        "peekOfCode": "class MasterPasswordRequiredMixin(AccessMixin):\n    \"\"\"Verify that the current user is authenticated.\"\"\"\n    def dispatch(self, request, *args, **kwargs):\n        if not request.session.get('master_password'):\n            redirect_url = reverse(\"masters:check\")\n            return redirect(f\"{redirect_url}?next={request.path}\")\n        return super().dispatch(request, *args, **kwargs)",
+        "detail": "passwords.mixins",
+        "documentation": {}
+    },
+    {
         "label": "PlatformPassword",
         "kind": 6,
         "importPath": "passwords.models",
@@ -1180,7 +1221,7 @@
         "kind": 6,
         "importPath": "passwords.views",
         "description": "passwords.views",
-        "peekOfCode": "class PlatformPasswordDeleteView(LoginRequiredMixin, DeleteView):\n    model = PlatformPassword\n    template_name = 'passwords/password_delete.html'\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PlatformDetailView(LoginRequiredMixin, DetailView):\n    model = PlatformPassword\n    template_name = 'passwords/password_detail.html'\nclass PlatformPasswordUpdateView(LoginRequiredMixin, UpdateView):\n    model = PlatformPassword",
+        "peekOfCode": "class PlatformPasswordDeleteView(LoginRequiredMixin, MasterPasswordRequiredMixin, DeleteView):\n    model = PlatformPassword\n    template_name = 'passwords/password_delete.html'\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PlatformDetailView(LoginRequiredMixin, MasterPasswordRequiredMixin, DetailView):\n    model = PlatformPassword\n    template_name = 'passwords/password_detail.html'\nclass PlatformPasswordUpdateView(LoginRequiredMixin, MasterPasswordRequiredMixin, UpdateView):\n    model = PlatformPassword",
         "detail": "passwords.views",
         "documentation": {}
     },
@@ -1189,7 +1230,7 @@
         "kind": 6,
         "importPath": "passwords.views",
         "description": "passwords.views",
-        "peekOfCode": "class PlatformDetailView(LoginRequiredMixin, DetailView):\n    model = PlatformPassword\n    template_name = 'passwords/password_detail.html'\nclass PlatformPasswordUpdateView(LoginRequiredMixin, UpdateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PasswordListView(LoginRequiredMixin, ListView):",
+        "peekOfCode": "class PlatformDetailView(LoginRequiredMixin, MasterPasswordRequiredMixin, DetailView):\n    model = PlatformPassword\n    template_name = 'passwords/password_detail.html'\nclass PlatformPasswordUpdateView(LoginRequiredMixin, MasterPasswordRequiredMixin, UpdateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PasswordListView(LoginRequiredMixin, ListView):",
         "detail": "passwords.views",
         "documentation": {}
     },
@@ -1198,7 +1239,7 @@
         "kind": 6,
         "importPath": "passwords.views",
         "description": "passwords.views",
-        "peekOfCode": "class PlatformPasswordUpdateView(LoginRequiredMixin, UpdateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PasswordListView(LoginRequiredMixin, ListView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_list.html'\nclass PlatformPasswordCreateView(LoginRequiredMixin, CreateView):",
+        "peekOfCode": "class PlatformPasswordUpdateView(LoginRequiredMixin, MasterPasswordRequiredMixin, UpdateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PasswordListView(LoginRequiredMixin, ListView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_list.html'\nclass PlatformPasswordCreateView(LoginRequiredMixin, MasterPasswordRequiredMixin, CreateView):",
         "detail": "passwords.views",
         "documentation": {}
     },
@@ -1207,7 +1248,7 @@
         "kind": 6,
         "importPath": "passwords.views",
         "description": "passwords.views",
-        "peekOfCode": "class PasswordListView(LoginRequiredMixin, ListView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_list.html'\nclass PlatformPasswordCreateView(LoginRequiredMixin, CreateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def form_valid(self, form):\n        \"\"\"If the form is valid, save the associated model.\"\"\"\n        self.object = form.save(commit=False)",
+        "peekOfCode": "class PasswordListView(LoginRequiredMixin, ListView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_list.html'\nclass PlatformPasswordCreateView(LoginRequiredMixin, MasterPasswordRequiredMixin, CreateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def form_valid(self, form):\n        \"\"\"If the form is valid, save the associated model.\"\"\"\n        self.object = form.save(commit=False)",
         "detail": "passwords.views",
         "documentation": {}
     },
@@ -1216,7 +1257,7 @@
         "kind": 6,
         "importPath": "passwords.views",
         "description": "passwords.views",
-        "peekOfCode": "class PlatformPasswordCreateView(LoginRequiredMixin, CreateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def form_valid(self, form):\n        \"\"\"If the form is valid, save the associated model.\"\"\"\n        self.object = form.save(commit=False)\n        self.object.user = self.request.user\n        self.object.save()\n        return super().form_valid(form)",
+        "peekOfCode": "class PlatformPasswordCreateView(LoginRequiredMixin, MasterPasswordRequiredMixin, CreateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def form_valid(self, form):\n        \"\"\"If the form is valid, save the associated model.\"\"\"\n        self.object = form.save(commit=False)\n        self.object.user = self.request.user\n        self.object.save()\n        return super().form_valid(form)",
         "detail": "passwords.views",
         "documentation": {}
     },

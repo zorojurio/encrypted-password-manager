@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from django.urls.base import reverse
 from django.views.generic import CreateView, UpdateView, View
 from .models import MasterPassword
@@ -57,6 +57,11 @@ class CheckMasterView(View):
                 decrypted_form_master_pass = encrypt_master_password(form_master_pass)
                 if str(decrypted_form_master_pass) == str(decrypted_master):
                     request.session['master_password'] = form_master_pass
+                    next_url = request.GET.get('next')
+                    if next_url:
+                        return redirect(request.GET.get('next'))
+                    else:
+                        return redirect("passwords:list")
                 else:
                     messages.warning(request=request, message="Wrong Master password")
         context = {
