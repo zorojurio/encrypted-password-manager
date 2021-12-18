@@ -20,7 +20,8 @@ def encrypt_platform_password(password, platform_password):
 
 
 def decrypt_password(password, encrypted_message):
+    print(type(encrypted_message))
     key32 = "{: <32}".format(password).encode("utf-8")
     obj = AES.new(key32, AES.MODE_CBC, 'This is an IV456')
-    decrupted = obj.decrypt(encrypted_message)
+    decrupted = obj.decrypt(eval(encrypted_message))
     return decrupted.decode("utf-8")

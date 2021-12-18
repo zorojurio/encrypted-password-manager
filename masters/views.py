@@ -10,6 +10,10 @@ from masters.utils import encrypt_master_password
 
 class MasterCreateView(LoginRequiredMixin, View):
     def get(self, request, *args, **kwargs):
+        master_password_qs = MasterPassword.objects.filter(user=request.user)
+        if master_password_qs.exists():
+            messages.warning(request, 'You have already created your master password please enter the master pasword to continue')
+            return redirect("masters:check")
         form = MastersPasswordForm()
         context = {
             'form': form
@@ -23,12 +27,14 @@ class MasterCreateView(LoginRequiredMixin, View):
             master_password_qs = MasterPassword.objects.filter(user=user)
             print(master_password_qs)
             if master_password_qs.exists():
-                print("master password is already created")
                 messages.warning(request, 'You have already created your master password')
+                return redirect("masters:check")
             else:
                 master_password = form.save(commit=False)
                 master_password.user = user
                 master_password.save()
+                request.session['master_password'] = form.cleaned_data.get('password')
+                return redirect("passwords:list")
         else:
             print(form.errors)
         context = {
@@ -37,13 +43,16 @@ class MasterCreateView(LoginRequiredMixin, View):
         return render(request=request, template_name='masters/masters_form.html', context=context)
 
 
-class CheckMasterView(View):
+class CheckMasterView(LoginRequiredMixin, View):
     def get(self, request, *args, **kwargs):
         form = CheckMasterPasswordForm()
+        master_password_qs = MasterPassword.objects.filter(user=request.user)
+        if not master_password_qs.exists():
+            return redirect("masters:create")
         context = {
             'form': form
         }
-        return render(request=request, template_name='passwords/master.html', context=context)
+        return render(request=request, template_name='masters/check.html', context=context)
         
     
     def post(self, request, *args, **kwargs):
@@ -64,7 +73,9 @@ class CheckMasterView(View):
                         return redirect("passwords:list")
                 else:
                     messages.warning(request=request, message="Wrong Master password")
+            else:
+                return redirect("masters:create")
         context = {
             'form': form
         }
-        return render(request=request, template_name='passwords/master.html', context=context)
+        return render(request=request, template_name='masters/check.html', context=context)

@@ -15,6 +15,7 @@ class PlatformPassword(models.Model):
     
     def __str__(self) -> str:
         return self.user.username
+
     
     def get_absolute_url(self):
         return reverse('passwords:detail', kwargs={'pk': self.pk})

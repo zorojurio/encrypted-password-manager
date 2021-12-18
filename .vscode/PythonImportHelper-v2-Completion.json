@@ -297,6 +297,22 @@
         "documentation": {}
     },
     {
+        "label": "decrypt_password",
+        "importPath": "masters.utils",
+        "description": "masters.utils",
+        "isExtraImport": true,
+        "detail": "masters.utils",
+        "documentation": {}
+    },
+    {
+        "label": "encrypt_platform_password",
+        "importPath": "masters.utils",
+        "description": "masters.utils",
+        "isExtraImport": true,
+        "detail": "masters.utils",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -505,23 +521,7 @@
         "documentation": {}
     },
     {
-        "label": "ListView",
-        "importPath": "django.views.generic",
-        "description": "django.views.generic",
-        "isExtraImport": true,
-        "detail": "django.views.generic",
-        "documentation": {}
-    },
-    {
         "label": "UpdateView",
-        "importPath": "django.views.generic",
-        "description": "django.views.generic",
-        "isExtraImport": true,
-        "detail": "django.views.generic",
-        "documentation": {}
-    },
-    {
-        "label": "CreateView",
         "importPath": "django.views.generic",
         "description": "django.views.generic",
         "isExtraImport": true,
@@ -538,6 +538,22 @@
     },
     {
         "label": "DeleteView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
         "importPath": "django.views.generic",
         "description": "django.views.generic",
         "isExtraImport": true,
@@ -843,7 +859,7 @@
         "kind": 2,
         "importPath": "masters.utils",
         "description": "masters.utils",
-        "peekOfCode": "def encrypt_platform_password(password, platform_password):\n    # 32 byte key is needed thats why encoding\n    key32 = \"{: <32}\".format(password).encode(\"utf-8\")\n    platform_password = \"{: <32}\".format(platform_password).encode(\"utf-8\")\n    obj = AES.new(key32, AES.MODE_CBC, 'This is an IV456')\n    ciphertext = obj.encrypt(platform_password)\n    return ciphertext\ndef decrypt_password(password, encrypted_message):\n    key32 = \"{: <32}\".format(password).encode(\"utf-8\")\n    obj = AES.new(key32, AES.MODE_CBC, 'This is an IV456')",
+        "peekOfCode": "def encrypt_platform_password(password, platform_password):\n    # 32 byte key is needed thats why encoding\n    key32 = \"{: <32}\".format(password).encode(\"utf-8\")\n    platform_password = \"{: <32}\".format(platform_password).encode(\"utf-8\")\n    obj = AES.new(key32, AES.MODE_CBC, 'This is an IV456')\n    ciphertext = obj.encrypt(platform_password)\n    return ciphertext\ndef decrypt_password(password, encrypted_message):\n    print(type(encrypted_message))\n    key32 = \"{: <32}\".format(password).encode(\"utf-8\")",
         "detail": "masters.utils",
         "documentation": {}
     },
@@ -852,7 +868,7 @@
         "kind": 2,
         "importPath": "masters.utils",
         "description": "masters.utils",
-        "peekOfCode": "def decrypt_password(password, encrypted_message):\n    key32 = \"{: <32}\".format(password).encode(\"utf-8\")\n    obj = AES.new(key32, AES.MODE_CBC, 'This is an IV456')\n    decrupted = obj.decrypt(encrypted_message)\n    return decrupted.decode(\"utf-8\")",
+        "peekOfCode": "def decrypt_password(password, encrypted_message):\n    print(type(encrypted_message))\n    key32 = \"{: <32}\".format(password).encode(\"utf-8\")\n    obj = AES.new(key32, AES.MODE_CBC, 'This is an IV456')\n    decrupted = obj.decrypt(eval(encrypted_message))\n    return decrupted.decode(\"utf-8\")",
         "detail": "masters.utils",
         "documentation": {}
     },
@@ -861,7 +877,7 @@
         "kind": 6,
         "importPath": "masters.views",
         "description": "masters.views",
-        "peekOfCode": "class MasterCreateView(LoginRequiredMixin, View):\n    def get(self, request, *args, **kwargs):\n        form = MastersPasswordForm()\n        context = {\n            'form': form\n        }\n        return render(request=request, template_name='masters/masters_form.html', context=context)\n    def post(self, request, *args, **kwargs):\n        form = MastersPasswordForm(request.POST)\n        if form.is_valid():",
+        "peekOfCode": "class MasterCreateView(LoginRequiredMixin, View):\n    def get(self, request, *args, **kwargs):\n        master_password_qs = MasterPassword.objects.filter(user=request.user)\n        if master_password_qs.exists():\n            messages.warning(request, 'You have already created your master password please enter the master pasword to continue')\n            return redirect(\"masters:check\")\n        form = MastersPasswordForm()\n        context = {\n            'form': form\n        }",
         "detail": "masters.views",
         "documentation": {}
     },
@@ -870,7 +886,7 @@
         "kind": 6,
         "importPath": "masters.views",
         "description": "masters.views",
-        "peekOfCode": "class CheckMasterView(View):\n    def get(self, request, *args, **kwargs):\n        form = CheckMasterPasswordForm()\n        context = {\n            'form': form\n        }\n        return render(request=request, template_name='passwords/master.html', context=context)\n    def post(self, request, *args, **kwargs):\n        form = CheckMasterPasswordForm(request.POST)\n        if form.is_valid():",
+        "peekOfCode": "class CheckMasterView(LoginRequiredMixin, View):\n    def get(self, request, *args, **kwargs):\n        form = CheckMasterPasswordForm()\n        master_password_qs = MasterPassword.objects.filter(user=request.user)\n        if not master_password_qs.exists():\n            return redirect(\"masters:create\")\n        context = {\n            'form': form\n        }\n        return render(request=request, template_name='masters/check.html', context=context)",
         "detail": "masters.views",
         "documentation": {}
     },
@@ -1221,7 +1237,7 @@
         "kind": 6,
         "importPath": "passwords.views",
         "description": "passwords.views",
-        "peekOfCode": "class PlatformPasswordDeleteView(LoginRequiredMixin, MasterPasswordRequiredMixin, DeleteView):\n    model = PlatformPassword\n    template_name = 'passwords/password_delete.html'\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PlatformDetailView(LoginRequiredMixin, MasterPasswordRequiredMixin, DetailView):\n    model = PlatformPassword\n    template_name = 'passwords/password_detail.html'\nclass PlatformPasswordUpdateView(LoginRequiredMixin, MasterPasswordRequiredMixin, UpdateView):\n    model = PlatformPassword",
+        "peekOfCode": "class PlatformPasswordDeleteView(LoginRequiredMixin, MasterPasswordRequiredMixin, DeleteView):\n    model = PlatformPassword\n    template_name = 'passwords/password_delete.html'\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PlatformDetailView(LoginRequiredMixin, MasterPasswordRequiredMixin, DetailView):\n    model = PlatformPassword\n    template_name = 'passwords/password_detail.html'\n    def get_context_data(self, **kwargs):\n        context = {}",
         "detail": "passwords.views",
         "documentation": {}
     },
@@ -1230,7 +1246,7 @@
         "kind": 6,
         "importPath": "passwords.views",
         "description": "passwords.views",
-        "peekOfCode": "class PlatformDetailView(LoginRequiredMixin, MasterPasswordRequiredMixin, DetailView):\n    model = PlatformPassword\n    template_name = 'passwords/password_detail.html'\nclass PlatformPasswordUpdateView(LoginRequiredMixin, MasterPasswordRequiredMixin, UpdateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PasswordListView(LoginRequiredMixin, ListView):",
+        "peekOfCode": "class PlatformDetailView(LoginRequiredMixin, MasterPasswordRequiredMixin, DetailView):\n    model = PlatformPassword\n    template_name = 'passwords/password_detail.html'\n    def get_context_data(self, **kwargs):\n        context = {}\n        if self.object:\n            master_password = self.request.session.get('master_password')\n            self.object.password = decrypt_password(master_password, self.object.password)\n            print(self.object.password)\n            context['object'] = self.object",
         "detail": "passwords.views",
         "documentation": {}
     },
@@ -1239,7 +1255,7 @@
         "kind": 6,
         "importPath": "passwords.views",
         "description": "passwords.views",
-        "peekOfCode": "class PlatformPasswordUpdateView(LoginRequiredMixin, MasterPasswordRequiredMixin, UpdateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def get_success_url(self):\n        return reverse(\"passwords:list\")\nclass PasswordListView(LoginRequiredMixin, ListView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_list.html'\nclass PlatformPasswordCreateView(LoginRequiredMixin, MasterPasswordRequiredMixin, CreateView):",
+        "peekOfCode": "class PlatformPasswordUpdateView(LoginRequiredMixin, MasterPasswordRequiredMixin, UpdateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def get_form_kwargs(self):\n        \"\"\"Return the keyword arguments for instantiating the form.\"\"\"\n        kwargs = super().get_form_kwargs()\n        if hasattr(self, 'object'):\n            master_password = self.request.session.get('master_password')\n            self.object.password = decrypt_password(master_password, self.object.password)",
         "detail": "passwords.views",
         "documentation": {}
     },
@@ -1248,7 +1264,7 @@
         "kind": 6,
         "importPath": "passwords.views",
         "description": "passwords.views",
-        "peekOfCode": "class PasswordListView(LoginRequiredMixin, ListView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_list.html'\nclass PlatformPasswordCreateView(LoginRequiredMixin, MasterPasswordRequiredMixin, CreateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def form_valid(self, form):\n        \"\"\"If the form is valid, save the associated model.\"\"\"\n        self.object = form.save(commit=False)",
+        "peekOfCode": "class PasswordListView(LoginRequiredMixin, MasterPasswordRequiredMixin, ListView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_list.html'\nclass PlatformPasswordCreateView(LoginRequiredMixin, MasterPasswordRequiredMixin, CreateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def form_valid(self, form):\n        \"\"\"If the form is valid, save the associated model.\"\"\"\n        master_password = self.request.session.get('master_password')",
         "detail": "passwords.views",
         "documentation": {}
     },
@@ -1257,7 +1273,7 @@
         "kind": 6,
         "importPath": "passwords.views",
         "description": "passwords.views",
-        "peekOfCode": "class PlatformPasswordCreateView(LoginRequiredMixin, MasterPasswordRequiredMixin, CreateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def form_valid(self, form):\n        \"\"\"If the form is valid, save the associated model.\"\"\"\n        self.object = form.save(commit=False)\n        self.object.user = self.request.user\n        self.object.save()\n        return super().form_valid(form)",
+        "peekOfCode": "class PlatformPasswordCreateView(LoginRequiredMixin, MasterPasswordRequiredMixin, CreateView):\n    model = PlatformPassword\n    template_name = 'passwords/passwords_form.html'\n    form_class = PlatformPasswordForm\n    def form_valid(self, form):\n        \"\"\"If the form is valid, save the associated model.\"\"\"\n        master_password = self.request.session.get('master_password')\n        if master_password:\n            self.object = form.save(commit=False)\n            form_password = form.cleaned_data.get('password')",
         "detail": "passwords.views",
         "documentation": {}
     },
