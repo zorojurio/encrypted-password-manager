@@ -129,6 +129,14 @@
         "documentation": {}
     },
     {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -741,7 +749,16 @@
         "kind": 6,
         "importPath": "masters.forms",
         "description": "masters.forms",
-        "peekOfCode": "class MastersPasswordForm(forms.ModelForm):\n    class Meta:\n        model = MasterPassword\n        fields = ['password']",
+        "peekOfCode": "class MastersPasswordForm(forms.ModelForm):\n    class Meta:\n        model = MasterPassword\n        fields = ['password']\nclass CheckMasterPasswordForm(forms.Form):\n    master = forms.CharField(widget=forms.PasswordInput)",
+        "detail": "masters.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CheckMasterPasswordForm",
+        "kind": 6,
+        "importPath": "masters.forms",
+        "description": "masters.forms",
+        "peekOfCode": "class CheckMasterPasswordForm(forms.Form):\n    master = forms.CharField(widget=forms.PasswordInput)",
         "detail": "masters.forms",
         "documentation": {}
     },
@@ -768,7 +785,7 @@
         "kind": 5,
         "importPath": "masters.urls",
         "description": "masters.urls",
-        "peekOfCode": "urlpatterns = [\n    path('create/', MasterCreateView.as_view(), name='create'),\n    path('check/', MasterCheckView.as_view(), name='check'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('create/', MasterCreateView.as_view(), name='create'),\n    path('check/', CheckMasterView.as_view(), name='check'),\n]",
         "detail": "masters.urls",
         "documentation": {}
     },
@@ -809,11 +826,11 @@
         "documentation": {}
     },
     {
-        "label": "MasterCheckView",
+        "label": "CheckMasterView",
         "kind": 6,
         "importPath": "masters.views",
         "description": "masters.views",
-        "peekOfCode": "class MasterCheckView(View):\n    def get(self, request, *args, **kwargs):\n        return render(request=request, template_name='masters/masters_form.html')",
+        "peekOfCode": "class CheckMasterView(View):\n    def get(self, request, *args, **kwargs):\n        form = CheckMasterPasswordForm()\n        context = {\n            'form': form\n        }\n        return render(request=request, template_name='passwords/master.html', context=context)\n    def post(self, request, *args, **kwargs):\n        form = CheckMasterPasswordForm(request.POST)\n        if form.is_valid():",
         "detail": "masters.views",
         "documentation": {}
     },
@@ -1106,15 +1123,6 @@
         "documentation": {}
     },
     {
-        "label": "MasterForm",
-        "kind": 6,
-        "importPath": "passwords.forms",
-        "description": "passwords.forms",
-        "peekOfCode": "class MasterForm(forms.Form):\n    master = forms.CharField(widget=forms.PasswordInput)\nclass PlatformPasswordForm(forms.ModelForm):\n    class Meta:\n        model = PlatformPassword\n        fields = ('email', 'username', 'password', 'platform')",
-        "detail": "passwords.forms",
-        "documentation": {}
-    },
-    {
         "label": "PlatformPasswordForm",
         "kind": 6,
         "importPath": "passwords.forms",
@@ -1146,7 +1154,7 @@
         "kind": 5,
         "importPath": "passwords.urls",
         "description": "passwords.urls",
-        "peekOfCode": "app_name = 'passwords'\nurlpatterns = [\n    path('check/', CheckMasterView.as_view(), name='check'),\n    path('', PasswordListView.as_view(), name='list'),\n    path('create/', PlatformPasswordCreateView.as_view(), name='create'),\n    path('<int:pk>/update/', PlatformPasswordUpdateView.as_view(), name='update'),\n    path('<int:pk>/detail/', PlatformDetailView.as_view(), name='detail'),\n    path('<int:pk>/delete/', PlatformPasswordDeleteView.as_view(), name='delete'),\n]",
+        "peekOfCode": "app_name = 'passwords'\nurlpatterns = [\n    path('', PasswordListView.as_view(), name='list'),\n    path('create/', PlatformPasswordCreateView.as_view(), name='create'),\n    path('<int:pk>/update/', PlatformPasswordUpdateView.as_view(), name='update'),\n    path('<int:pk>/detail/', PlatformDetailView.as_view(), name='detail'),\n    path('<int:pk>/delete/', PlatformPasswordDeleteView.as_view(), name='delete'),\n]",
         "detail": "passwords.urls",
         "documentation": {}
     },
@@ -1155,17 +1163,8 @@
         "kind": 5,
         "importPath": "passwords.urls",
         "description": "passwords.urls",
-        "peekOfCode": "urlpatterns = [\n    path('check/', CheckMasterView.as_view(), name='check'),\n    path('', PasswordListView.as_view(), name='list'),\n    path('create/', PlatformPasswordCreateView.as_view(), name='create'),\n    path('<int:pk>/update/', PlatformPasswordUpdateView.as_view(), name='update'),\n    path('<int:pk>/detail/', PlatformDetailView.as_view(), name='detail'),\n    path('<int:pk>/delete/', PlatformPasswordDeleteView.as_view(), name='delete'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('', PasswordListView.as_view(), name='list'),\n    path('create/', PlatformPasswordCreateView.as_view(), name='create'),\n    path('<int:pk>/update/', PlatformPasswordUpdateView.as_view(), name='update'),\n    path('<int:pk>/detail/', PlatformDetailView.as_view(), name='detail'),\n    path('<int:pk>/delete/', PlatformPasswordDeleteView.as_view(), name='delete'),\n]",
         "detail": "passwords.urls",
-        "documentation": {}
-    },
-    {
-        "label": "CheckMasterView",
-        "kind": 6,
-        "importPath": "passwords.views",
-        "description": "passwords.views",
-        "peekOfCode": "class CheckMasterView(View):\n    def get(self, request, *args, **kwargs):\n        form = MasterForm()\n        context = {\n            'form': form\n        }\n        return render(request=request, template_name='passwords/master.html', context=context)\n    def post(self, request, *args, **kwargs):\n        form = MasterForm(request.POST)\n        if form.is_valid():",
-        "detail": "passwords.views",
         "documentation": {}
     },
     {

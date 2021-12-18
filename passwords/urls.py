@@ -6,12 +6,10 @@ from .views import (
     PlatformDetailView,
     PlatformPasswordUpdateView,
     PlatformPasswordDeleteView,
-    CheckMasterView
 )
 
 app_name = 'passwords'
 urlpatterns = [
-    path('check/', CheckMasterView.as_view(), name='check'),
     path('', PasswordListView.as_view(), name='list'),
     path('create/', PlatformPasswordCreateView.as_view(), name='create'),
     path('<int:pk>/update/', PlatformPasswordUpdateView.as_view(), name='update'),

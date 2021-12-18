@@ -6,5 +6,6 @@ class MastersPasswordForm(forms.ModelForm):
         model = MasterPassword
         fields = ['password']
     
-
+class CheckMasterPasswordForm(forms.Form):
+    master = forms.CharField(widget=forms.PasswordInput)
 

@@ -4,29 +4,10 @@ from django.urls import reverse
 from django.views.generic import ListView, UpdateView, CreateView, DetailView, DeleteView
 from django.views.generic.base import View
 
-from .forms import MasterForm, PlatformPasswordForm
+from .forms import PlatformPasswordForm
 from .models import PlatformPassword
 
 
-class CheckMasterView(View):
-    def get(self, request, *args, **kwargs):
-        form = MasterForm()
-        context = {
-            'form': form
-        }
-        return render(request=request, template_name='passwords/master.html', context=context)
-        
-    
-    def post(self, request, *args, **kwargs):
-        form = MasterForm(request.POST)
-        if form.is_valid():
-            master = form.cleaned_data.get('master')
-            print(master)
-        context = {
-            'form': form
-        }
-        return render(request=request, template_name='passwords/master.html', context=context)
-    
 class PlatformPasswordDeleteView(LoginRequiredMixin, DeleteView):
     model = PlatformPassword
     template_name = 'passwords/password_delete.html'

@@ -13,3 +13,6 @@ class MasterPassword(models.Model):
     def save(self, *args, **kwargs):
         self.password = encrypt_master_password(self.password)
         super(MasterPassword, self).save(*args, **kwargs)
+    
+    
+    
