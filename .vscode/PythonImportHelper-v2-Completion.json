@@ -289,6 +289,14 @@
         "documentation": {}
     },
     {
+        "label": "encrypt_master_password",
+        "importPath": "masters.utils",
+        "description": "masters.utils",
+        "isExtraImport": true,
+        "detail": "masters.utils",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
